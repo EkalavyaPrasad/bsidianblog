@@ -10,29 +10,28 @@ I want the interface to look like this:
 
 --- 
 
-# Schedule
+## To-Dos
 
-## Monday:
+
 	Initialise Streamlit app 
 	Create Portfolio Selector
 	Build & Display Portfolio Dataframe
 
-## Tuesday:
+
 	Work on Calculating Key Metrics
 	Display key metrics
 	Research Risk Metrics
 
-## Wednesday :
+
 	Calculate Risk Metrics
 	Display Risk Metrics
 	Create and display graphs
 
-## Thursday:
 
 	Chatbot
 	Feed context and build chatbot interface
 
-## Friday:
+
 	Fine-tune Chatbot, Polish
 	Add other user-improvements
 

@@ -3,7 +3,7 @@
 ---
 
 
-# [[Main/Equity chatbot folder/Equity Chatbot Assistant\|Equity Chatbot Assistant]]
+## [[Main/Equity chatbot folder/Equity Chatbot Assistant\|Equity Chatbot Assistant]]
 
 
 
