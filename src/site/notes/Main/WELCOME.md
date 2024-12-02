@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/main/welcome/","tags":["gardenEntry"]}
 ---
 
-
+Next -> [[Main/Projects\|Projects]]
 
 02/12/2024 - The Beginning
 
