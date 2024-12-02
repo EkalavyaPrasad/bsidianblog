@@ -17,7 +17,11 @@ Dear reader, if you are reading this, thank you and please bear with me.
 
 --- 
 
+## What is Obsidian?
+
+## Why Obsidian?
 ## How do I publish my blog from Obsidian to the Public?
 
-
+To Be Continued... ()
+- [ ] Complete this (@03-12-2024)
 
