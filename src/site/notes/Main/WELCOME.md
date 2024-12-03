@@ -32,8 +32,5 @@ Dear reader, if you are reading this, thank you and please bear with me.
 ## Why Obsidian?
 ## How do I publish my blog from Obsidian to the Public?
 
-To Be Continued... ()
-
-Hello
-- [ ] Complete this (@03-12-2024)
+	
 

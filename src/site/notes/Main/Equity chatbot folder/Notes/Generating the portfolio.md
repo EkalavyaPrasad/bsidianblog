@@ -8,5 +8,9 @@ I want users to be able to add their stocks seamlessly. To do this, I plan on cr
 
 
 
+## Creating the Portfolio
+- 
+
 ### Roadblock #1
+
 
