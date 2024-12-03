@@ -2,6 +2,15 @@
 {"dg-publish":true,"permalink":"/main/welcome/","tags":["gardenEntry"]}
 ---
 
+# Thank you for Visiting
+
+Helpful Links
+- LinkedIn www.linkedin.com/in/ekalavya-prasad
+- Github [EkalavyaPrasad (Ekalavya Prasad) · GitHub](https://github.com/EkalavyaPrasad)
+- Portfolio https://www.ekalavyaprasad.com
+
+---
+
 Next -> [[Main/Projects\|Projects]]
 ---
 
