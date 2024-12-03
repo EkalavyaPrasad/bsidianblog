@@ -13,8 +13,6 @@ Helpful Links
 
 Next -> [[Main/Projects\|Projects]]
 
-hello mic testing
-
 ---
 
 02/12/2024 - The Beginning
