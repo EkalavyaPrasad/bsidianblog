@@ -5,12 +5,14 @@
 
 # Devlog
 
-## Monday [[2024-12-02\|2024-12-02]]
+---
+## Tuesday - 03/12/2024
 
-	Initialised Streamlit App
-	Created Base app on Github
-	Worked on portfolio selector and builder
-		Select stocks from LSE database
-		Multiselect user input
-		Automatically generate Logo of the company
-		Arrange key metrics in a dataframe and showcase them neatly.
+
+- Initialised Streamlit App
+- Created Base app on Github
+- Worked on portfolio selector and builder
+	Select stocks from LSE database
+	Multiselect user input
+	Automatically generate Logo of the company
+	Arrange key metrics in a dataframe and showcase them neatly.

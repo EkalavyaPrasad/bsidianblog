@@ -11,7 +11,7 @@ I decided that I will start learning in public. I fully intend to publish my not
 
 ## How I plan on doing this?
 
-I am constantly building something, learning, growing, evolving. This page shall be a place where I document everything. Hopefully everything works out how it is in my head currently. 
+I am constantly building something, learning, growing, evolving. This page shall be a place where I document everything. Hopefully everything works out how it is in my head currently. Also, as a personal philosophy, I will refrain from generating any AI text in this Blog. So just remember, all the texts in here, despite their flaws are 100% typed by me. 
 
 Dear reader, if you are reading this, thank you and please bear with me. 
 
@@ -23,5 +23,7 @@ Dear reader, if you are reading this, thank you and please bear with me.
 ## How do I publish my blog from Obsidian to the Public?
 
 To Be Continued... ()
+
+Hello
 - [ ] Complete this (@03-12-2024)
 

@@ -10,7 +10,10 @@
 	Free cloud deployment so that I can show them off to people. 
 # I used a video from the great folks at Streamlit for a comprehensive guide. 
 
-[Build a Streamlit Dashboard app in Python - YouTube]
-(<iframe title="Build a Streamlit Dashboard app in Python" src="https://www.youtube.com/embed/p2pXpcXPoGk?feature=oembed" height="113" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;"></iframe>) 
+[Building a Machine Learning App in Python with Streamlit - YouTube]
+<iframe title="Building a Machine Learning App in Python with Streamlit" src="https://www.youtube.com/embed/LJ6DcLGQ4vY?feature=oembed" height="150" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.33333 / 1; width: 100%; height: 100%;"></iframe>
+
+
+
 
 
