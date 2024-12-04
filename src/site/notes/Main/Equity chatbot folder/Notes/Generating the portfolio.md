@@ -12,7 +12,22 @@ I want users to be able to add their stocks seamlessly. To do this, I plan on cr
 
 ## Creating the Portfolio
 
-After all the user information is collected, I want to calculate the following things. 
+After all the user information is collected, I want to generate a table that automatically generates these things: 
+
+- Stock Name
+- Stock Ticker
+- Industry of the Company
+- Market Cap
+- Cap Size (Small, med, large)
+- Current price of the share
+- Number of Shares invested by the user
+- Total value invested in a particular stock (Current price * Num of stocks)
+- Beta of the stock
+- Daily returns (Current Price - Previous Day's Close price)
+- Daily returns % (Daily returns - Previous Day's Close price * 100)
+- Total returns of the stock to date (Using the user submitted time frame)
+
+
 
 ### Roadblock #1
 

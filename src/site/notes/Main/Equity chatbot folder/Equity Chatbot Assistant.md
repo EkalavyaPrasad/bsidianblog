@@ -2,7 +2,12 @@
 {"dg-publish":true,"permalink":"/main/equity-chatbot-folder/equity-chatbot-assistant/"}
 ---
 
-# Vision Behind the Project
+Next -> [[Main/Equity chatbot folder/Notes/Qualities of a good portfolio\|Qualities of a good portfolio]]
+Prev <- [[Main/Projects\|Projects]]
+
+---
+
+## Vision Behind the Project
 
 The vision behind this chatbot is ease of access. 
 
@@ -22,3 +27,5 @@ Lastly, my notes provide a proper documentation of my learnings. I will paste al
 Access my [[Main/Equity chatbot folder/Devlog\|Devlog]] 
 
 ---
+Next -> [[Main/Equity chatbot folder/Notes/Qualities of a good portfolio\|Qualities of a good portfolio]]
+Prev <- [[Main/Projects\|Projects]]

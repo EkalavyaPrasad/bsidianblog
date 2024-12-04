@@ -7,6 +7,7 @@
 	Easy
 	customisable
 	I like it
+	Previous exposure to the interface through various projects. 
 	Free cloud deployment so that I can show them off to people. 
 
 
