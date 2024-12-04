@@ -44,6 +44,12 @@ This app not only helps me publish, but also enables me to track my to-dos, trac
 ![Pasted image 20241204114655.png](/img/user/Assets/Pasted%20image%2020241204114655.png)
 
 
+## What can you expect from this blog?
 
-	
+I will be very honest, there isn't much of a plan really. It's main goal is to serve as a log of my projects so that I can present a behind the scenes view of how I make my projects. Also, I want to be able to properly set targets for myself and let people see how I do things. Each project section will also have a notes section that will contain all the resources I use to learn and build, this can't take place of proper guided learning but can serve as a blueprint for anyone that wants to do what I do. 
 
+I am not an expert in anything, but who says you have to be an expert to share knowledge, with this thought, lets dive right in....
+
+---
+
+Next -> [[Main/Projects\|Projects]]
