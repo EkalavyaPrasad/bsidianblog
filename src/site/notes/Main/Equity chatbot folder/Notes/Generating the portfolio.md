@@ -11,7 +11,8 @@ I want users to be able to add their stocks seamlessly. To do this, I plan on cr
 
 
 ## Creating the Portfolio
-- 
+
+After all the user information is collected, I want to calculate the following things. 
 
 ### Roadblock #1
 
