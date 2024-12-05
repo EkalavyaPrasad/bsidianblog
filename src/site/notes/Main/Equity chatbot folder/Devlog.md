@@ -21,4 +21,5 @@
 - Added a sidebar that enables users to enter their desired timeframe. 
 - Created function to fetch latest stock price from [yfinance · PyPI](https://pypi.org/project/yfinance/)
 - Created function to calculate total investment values. 
-- Created function to fetch beta values from the 
+- Created function to fetch beta values from [yfinance · PyPI](https://pypi.org/project/yfinance/)
+- Created algorithms to calculate Daily returns, 
