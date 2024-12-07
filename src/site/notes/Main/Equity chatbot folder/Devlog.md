@@ -23,3 +23,14 @@
 - Created function to calculate total investment values. 
 - Created function to fetch beta values from [yfinance · PyPI](https://pypi.org/project/yfinance/)
 - Created algorithms to calculate Daily returns, 
+
+## Thursday - 05/12/2024
+
+- Created Pie Charts for Industry, Company, and Market Cap distribution. 
+
+## Friday - 06-12-2024
+
+- Added functionality to toggle stock exchanges between US, UK, and India
+- Added Key stock performance indicators
+- Added key risk indicators
+- 
