@@ -33,4 +33,9 @@
 - Added functionality to toggle stock exchanges between US, UK, and India
 - Added Key stock performance indicators
 - Added key risk indicators
-- 
+
+## Saturday - 07-12-2024
+
+- Created VaR and CVaR calculations. 
+- Worked on the portfolio optimiser interface. 
+

@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/main/equity-chatbot-folder/equity-chatbot-assistant/"}
 ---
 
-Next -> [[Main/Equity chatbot folder/Notes/Qualities of a good portfolio\|Qualities of a good portfolio]]
+Next -> [[Main/Equity chatbot folder/Notes/How to Create a streamlit app.\|How to Create a streamlit app.]]
 Prev <- [[Main/Projects\|Projects]]
 
 ---
@@ -27,5 +27,5 @@ Lastly, my notes provide a proper documentation of my learnings. I will paste al
 Access my [[Main/Equity chatbot folder/Devlog\|Devlog]] 
 
 ---
-Next -> [[Main/Equity chatbot folder/Notes/Qualities of a good portfolio\|Qualities of a good portfolio]]
+Next -> [[Main/Equity chatbot folder/Notes/How to Create a streamlit app.\|How to Create a streamlit app.]]
 Prev <- [[Main/Projects\|Projects]]
