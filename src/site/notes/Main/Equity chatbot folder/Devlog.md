@@ -6,7 +6,7 @@
 # Devlog
 
 ---
-## Tuesday - 03/12/2024
+## Tuesday - 03-12-2024
 
 - Initialised Streamlit App
 - Created Base app on Github
@@ -16,7 +16,7 @@
 	- Automatically generate Logo of the company
 	- Arrange key metrics in a dataframe and showcase them neatly.
 
-## Wednesday - 04/12/2024
+## Wednesday - 04-12-2024
 
 - Added a sidebar that enables users to enter their desired timeframe. 
 - Created function to fetch latest stock price from [yfinance · PyPI](https://pypi.org/project/yfinance/)
@@ -38,4 +38,16 @@
 
 - Created VaR and CVaR calculations. 
 - Worked on the portfolio optimiser interface. 
+
+## Tuesday - 10-12-2024
+
+- Redesigned the portfolio optimiser. Added a dropdown menu. 
+
+## Wednesday - 11-12-2024
+
+- Started working on the AI side of things. 
+
+## Monday - 16-12-2024
+
+- Started prompt engineering for the portfolio report generator. 
 
