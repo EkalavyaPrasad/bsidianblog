@@ -2,8 +2,8 @@
 {"dg-publish":true,"permalink":"/main/equity-chatbot-folder/equity-chatbot-assistant/"}
 ---
 
-Next -> [[Main/Equity chatbot folder/Notes/How to Create a streamlit app.\|How to Create a streamlit app.]]
-Prev <- [[Main/Projects\|Projects]]
+Next -> [Streamlit App Guide](/Notes/How-to-Create-a-streamlit-app)
+Prev <- [[Main/Equity chatbot folder/Projects\|Projects]]
 
 ---
 
@@ -27,5 +27,5 @@ Lastly, my notes provide a proper documentation of my learnings. I will paste al
 Access my [[Main/Equity chatbot folder/Devlog\|Devlog]] 
 
 ---
-Next -> [[Main/Equity chatbot folder/Notes/How to Create a streamlit app.\|How to Create a streamlit app.]]
-Prev <- [[Main/Projects\|Projects]]
+Next -> [[Main/Equity chatbot folder/How to Create a streamlit app.\|How to Create a streamlit app.]]
+Prev <- [[Main/Equity chatbot folder/Projects\|Projects]]
