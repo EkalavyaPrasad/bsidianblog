@@ -4,6 +4,9 @@
 
 Next -> [[Main/Equity chatbot folder/Visualisations\|Visualisations]]
 Prev <- [[Main/Equity chatbot folder/How to Create a streamlit app.\|How to Create a streamlit app.]]
+
+---
+
 ## Here's what I am thinking...
 
 I want users to be able to add their stocks seamlessly. To do this, I plan on creating a dropdown menu, with the name of all the stocks that the user has invested in. A sidebar will programmatically detect the individual number of stocks so that users can tweak the quantity of each invested stock. 

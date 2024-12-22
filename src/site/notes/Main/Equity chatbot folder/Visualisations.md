@@ -46,16 +46,25 @@ help us understand the final effect of the contents of the portfolio.
 Total Value: This is simply the summation of the number of shares in each stock multiplied by the price per share. 
 
 $$
-\sum(No. of shares \times Price per share )
+\sum(No. of \space shares \times Price \space per \space share )
 $$
 Total returns: This is the Sum of all the gains/losses earned by each share times the no. of shares over a period of time. Where the gains and losses is the difference between the current price of the share minus the price at the beginning of the time period. 
 
 $$
-\sum(no. of shares \times (Current share value - Initialsharevalue))
+\sum(no.\space of\space  shares \times (Current\space  share\space  value - Initial\space share\space value))
 
 $$
 
-Daily Gain/Losses: This is the 
+Daily Gain/Losses: This is the difference between the previous close price and today's close price. 
+
+$$
+\sum(previous\space close\space price - current\space  price)
+$$
+Daily Gain/Losses (in %): Same thing as above, but in percent with respect to the previous day's close price. 
+
+$$
+\sum(\frac{(daily\space gain\space /loss)}{(prev\space close)}*100)
+$$
 
 ---
 

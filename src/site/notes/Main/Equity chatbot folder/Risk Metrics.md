@@ -46,6 +46,8 @@ $$
 
 This arrangement will make sure that the user does not have to spend/withraw any amount from the portfolio, just sell the excess shares and buy the new ones. 
 
+The proportion of the shares mentioned in the new suggested portfolio is the mathematically optimal way to invest where the risk and returns are the most in line. 
+
 ---
 Next -> [[Main/Equity chatbot folder/AI Report Generation\|AI Report Generation]]
 Prev <- [[Main/Equity chatbot folder/Visualisations\|Visualisations]]

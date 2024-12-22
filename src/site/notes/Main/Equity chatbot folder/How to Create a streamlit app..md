@@ -20,6 +20,7 @@ Prev <- [[Main/Equity chatbot folder/Equity Chatbot Assistant\|Equity Chatbot As
 [Building a Machine Learning App in Python with Streamlit - YouTube]
 <iframe title="Building a Machine Learning App in Python with Streamlit" src="https://www.youtube.com/embed/LJ6DcLGQ4vY?feature=oembed" height="150" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.33333 / 1; width: 100%; height: 100%;"></iframe>
 
+This tutorial gives me a good foundation on how to deploy my models to the cloud. 
 
 ---
 
