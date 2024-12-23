@@ -62,7 +62,13 @@ $$
   A suboptimal portfolio will be one that does not give us a return matching our risk profile whereas a good portfolio generally gives us a better return than the risk we bear. 
   Sharpe ratio is a metric that helps us measure exactly this. A sharpe ratio less than 1 is a suboptimal investment and the higher the SR, the better return a portfolio generates for the risk. 
 
-- Calculation: To calculate the Sharpe ratio, 
+- Calculation: To calculate the Sharpe ratio, we first calculate the extra return the portfolio generates for the risk, known as the Risk Premium. This can be done by subtracting the expected return of the portfolio with the risk free rate
+ 
+$$
+risk\space premium = expected\space returns - risk\space free \space rate
+$$
+
+	Note on Risk free rate: This is the rate of a security that is seemingly 'free of risk'
 
 
 ### Value at Risk (VaR)
