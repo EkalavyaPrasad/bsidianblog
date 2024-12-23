@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/main/equity-chatbot-folder/equity-chatbot-assistant/"}
 ---
 
-Next -> [Streamlit App Guide](/Notes/How-to-Create-a-streamlit-app)
+Next -> [[Main/Equity chatbot folder/How to Create a streamlit app.\|How to Create a streamlit app.]]
 Prev <- [[Main/Equity chatbot folder/Projects\|Projects]]
 
 ---

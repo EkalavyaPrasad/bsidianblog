@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/equity-chatbot-folder/how-to-create-a-streamlit-app/","title":"\"How to create a streamlit app\""}
+{"dg-publish":true,"permalink":"/main/equity-chatbot-folder/how-to-create-a-streamlit-app/"}
 ---
 
 Next -> [[Main/Equity chatbot folder/Generating the portfolio\|Generating the portfolio]]

@@ -14,21 +14,56 @@ Here are the metrics I plan to calculate and display.
 ### Standard Deviation
 
 - Significance: Standard Deviation, put bluntly shows the volatility of the portfolio. i.e. the ups and downs that a portfolio experiences in a given period of time. It is essentially a very basic metric of how risky a portfolio is. More standard deviation means that there is little stability in the movement of prices. 
-- Calculation: to calculate the standard deviation of a portfolio, we first find the correlation matrix of the portfolio. This is simply a matrix that shows the correlation of each element with an another element in the array. 
+- Calculation: to calculate the standard deviation of a portfolio, we first find the correlation matrix of the portfolio. This is simply a matrix that shows the correlation of each element with an another element in the array. Which we then multiply with the weights of each stock in the portfolio. 
+
+example of a correlation matrix:
+
+|         | Asset 1          | Asset 2          | Asset 3          | Asset 4          | Asset 5          |
+| ------- | ---------------- | ---------------- | ---------------- | ---------------- | ---------------- |
+| Asset 1 | ==Variance(A1)== | Cov(A1, A2)      | Cov(A1, A3)      | Cov(A1, A4)      | Cov(A1, A5)      |
+| Asset 2 | Cov(A2, A1)      | ==Variance(A2)== | Cov(A2, A3)      | Cov(A2, A4)      | Cov(A2, A5)      |
+| Asset 3 | Cov(A3, A1)      | Cov(A3, A2)      | ==Variance(A3)== | Cov(A3, A4)      | Cov(A3, A5)      |
+| Asset4  | Cov(A4, A1)      | Cov(A4, A2)      | Cov(A4, A3)      | ==Variance(A4)== | Cov(A4, A5)      |
+| Asset 5 | Cov(A5, A1)      | Cov(A5, A2)      | Cov(A5, A3)      | Cov(A5, A4)      | ==Variance(A5)== |
+
+where *cov = Covariance*
+
+Then, the weights are denoted in the form of a matrix where each asset's asset allocation is noted. 
 
 
-|         | Asset 1      | Asset 2            | Asset 3            | Asset 4            | Asset 5            |
-| ------- | ------------ | ------------------ | ------------------ | ------------------ | ------------------ |
-| Asset 1 | Variance(A1) | Covariance(A1, A2) | Covariance(A1, A2) | Covariance(A1, A2) | Covariance(A1, A2) |
-| Asset 2 |              | Variance(A2)       |                    |                    |                    |
-| Asset 3 |              |                    | Variance(A3)       |                    |                    |
-| Asset4  |              |                    |                    | Variance(A4)       |                    |
-| Asset 5 |              |                    |                    |                    | Variance(A5)       |
+$$
+weights = \begin{bmatrix}   a \\ b\\ c\\ d\\ e\\\end{bmatrix}
+$$
 
 
+finally, we find out the standard deviation of the portfolio using this formula:
+
+$$
+variance = w^t \times corr \space matrix\times w
+$$
+where 
+
+w = weight matrix
+wt = transpose of the weight matrix
+corr matrix = correlation matrix of the portfolio. 
 
 
+Now that we have the variance of the portfolio, the standard deviation simply becomes. 
+
+$$
+std\space dev = \sqrt variance 
+$$
 ### Sharpe Ratio
+
+- Significance: Every asset/portfolio carries an inherent risk with it. Nothing is wrong with risk, as long as there is a matching return it generates. General consensus says that:
+$$
+risk \propto returns
+$$
+  A suboptimal portfolio will be one that does not give us a return matching our risk profile whereas a good portfolio generally gives us a better return than the risk we bear. 
+  Sharpe ratio is a metric that helps us measure exactly this. A sharpe ratio less than 1 is a suboptimal investment and the higher the SR, the better return a portfolio generates for the risk. 
+
+- Calculation: To calculate the Sharpe ratio, 
+
 
 ### Value at Risk (VaR)
 
