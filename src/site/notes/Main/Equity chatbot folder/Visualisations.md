@@ -66,6 +66,9 @@ $$
 \sum(\frac{(daily\space gain\space /loss)}{(prev\space close)}*100)
 $$
 
+
+Next up, calculating the risk metrics. 
+
 ---
 
 
