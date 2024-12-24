@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/main/equity-chatbot-folder/ai-report-generation/"}
 ---
 
+Prev <-  [[Main/Equity chatbot folder/Risk Metrics\|Risk Metrics]]
+Next -> [[Main/Equity chatbot folder/Implementation\|Implementation]]
 
 ---
 
@@ -78,20 +80,44 @@ Head to [[Main/Equity chatbot folder/Prompt Engineering Notes\|Prompt Engineerin
 
 In order to craft the perfect prompt, I will need to draft for myself, my ideal vision of an equity report such that I get a good starting point to create my prompts. 
 
-I go through my process of learning how to make comprehensive equity reports here. [[Main/Equity chatbot folder/Creating Equity reports\|Creating Equity reports]]
-
+I go through my process of learning how to make equity reports here. [[Main/Equity chatbot folder/Creating Equity reports\|Creating Equity reports]]. 
 
 
 ---
 
+After I have the perfect prompt to add into my code. I simply use the open source ollama LLM to process my data and draft reports. 
 
 
-
-
-
-
-
+``` python
+def ai_report(df, other_info):
+    other_info = f'{other_info}'
+    llm = ChatOllama(
+        model="llama3:latest",
+        temperature=0.2
+    )
+    messages = [
+    ("system", """You are a portfolio and equity analyst  writer and You have to generate reports like one. Never answer in first person. \
+     Your job is to take portfolio data and convert them into insightful portfolio reports. You will recieve user's portfolio and your task is to create reports out of them. Give comprehensive explainations of all the figures and provide recommendations on the choice of stocks that the user has chosen. Make your answers detailed and in-depth.  \
+     each section should contain a short paragraph on what the section is about, what qualities in a portfolio makes the section 'good' and whether the user portfolio satisfies the qualities. \
+     for example: Industry composition: this helps us understand diversification. Diversification is important because it makes sure that our portfolio is spread out across different industries. our portfolio is good because it is sufficiently diversified (or) it is bad because it is not sufficiently diversified.\
+     Answer in markdown.\
+     The currency to be used is the local currency of the country\
+     Each heading should have a rating out of 5. \
+     Use the following format: \
+     # Portfolio report \
+     ## Overall portfolio summary \
+     ## Portfolio composition \
+     ## Industry composition \
+     ## Risk analysis \
+     ## Recommendations"""),
+    ("human", f'My individual stock data is in {df} and my overall stock data is in {other_info}'),
+    ]
+    response = llm.stream(messages)
+    for chunk in response:
+        yield chunk.content
+```
 
 ---
 
 Prev <- [[Main/Equity chatbot folder/Risk Metrics\|Risk Metrics]]
+Next -> [[Main/Equity chatbot folder/Implementation\|Implementation]]

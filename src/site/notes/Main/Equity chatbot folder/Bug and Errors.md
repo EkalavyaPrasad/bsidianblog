@@ -8,7 +8,7 @@ Resolved errors shall be "Checked away when resolved", do not delete error logs.
 
 - [x] Out of Bounds Error when time frame exceeds period of incorporation. 
 	- Fix: Period defaults to 'Max' if DOI exceeds the given time frame. 
-- [ ] Company information not being retrieved properly for some stocks. Will have to add an error statement for that. 
+- [x] Company information not being retrieved properly for some stocks. Will have to add an error statement for that. ✅ 2024-12-24
 - [ ] LSE Stock data is not being translated properly
-- [ ] Risk free rate is assumed to be 7.635% (Indian). More granular controls have to be set for better accuracy. 
+- [x] Risk free rate is assumed to be 7.635% (Indian). More granular controls have to be set for better accuracy. ✅ 2024-12-24
 - [ ] 

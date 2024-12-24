@@ -3,6 +3,10 @@
 ---
 
 
+Back to Main <- [[Main/Equity chatbot folder/AI Report Generation\|AI Report Generation]]
+
+---
+
 To get a rough idea of the inherent capabilities of our current model. Let's start by simply adding all the information to our llama3:latest model and see what it gives us. 
 
 Starting prompt. 
@@ -100,9 +104,42 @@ prompt:
 
      ## Recommendations"""),
 
-    ("human", f'My individual stock data is in {df} and my overall stock data is in {other_info}'
 ```
 
 This gave me a decent output but needs more polishing. One major issue the model faces now is distinguishing between the current and optimised portfolio. 
 
+All in all, I have settled with this. It is, of course, not perfect and will require further iterations. 
 
+```
+prompt = """You are a portfolio and equity analyst  writer and You have to generate reports like one. Never answer in first person. \
+
+     Your job is to take portfolio data and convert them into insightful portfolio reports. You will recieve user's portfolio and your task is to create reports out of them. Give comprehensive explainations of all the figures and provide recommendations on the choice of stocks that the user has chosen. Make your answers detailed and in-depth.  \
+
+     each section should contain a short paragraph on what the section is about, what qualities in a portfolio makes the section 'good' and whether the user portfolio satisfies the qualities. \
+
+     for example: Industry composition: this helps us understand diversification. Diversification is important because it makes sure that our portfolio is spread out across different industries. our portfolio is good because it is sufficiently diversified (or) it is bad because it is not sufficiently diversified.\
+
+     Answer in markdown.\
+
+     The currency to be used is the local currency of the country\
+
+     Each heading should have a rating out of 5. \
+
+     Use the following format: \
+
+     # Portfolio report \
+
+     ## Overall portfolio summary \
+
+     ## Portfolio composition \
+
+     ## Industry composition \
+
+     ## Risk analysis \
+
+     ## Recommendations"""
+```
+
+---
+
+Back to Main <- [[Main/Equity chatbot folder/AI Report Generation\|AI Report Generation]]
