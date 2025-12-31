@@ -3,7 +3,7 @@
 ---
 
 Next -> [[Main/Equity chatbot folder/How to Create a streamlit app.\|How to Create a streamlit app.]]
-Prev <- [[Main/Equity chatbot folder/Projects\|Projects]]
+Prev <- [[Main/Projects\|Projects]]
 
 ---
 
@@ -32,4 +32,4 @@ Access my [[Main/Equity chatbot folder/Devlog\|Devlog]]
 
 ---
 Next -> [[Main/Equity chatbot folder/How to Create a streamlit app.\|How to Create a streamlit app.]]
-Prev <- [[Main/Equity chatbot folder/Projects\|Projects]]
+Prev <- [[Main/Projects\|Projects]]

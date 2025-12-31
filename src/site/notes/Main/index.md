@@ -11,13 +11,13 @@ Helpful Links
 
 ---
 
-Next -> [[Main/Equity chatbot folder/Projects\|Projects]]
+Next -> [[Main/Projects\|Projects]]
 
 ---
 
 02/12/2024 - The Beginning
 
-I decided that I will start learning in public. I fully intend to publish my notes onto the internet so that it can benefit everyone. Documenting every thing is still something that resides outside my comfort zone. But I will try my best and provide best value to everything. All my [[Main/Equity chatbot folder/Projects\|Projects]] building progress shall be documented here and all for you guys to enjoy 😄. 
+I decided that I will start learning in public. I fully intend to publish my notes onto the internet so that it can benefit everyone. Documenting every thing is still something that resides outside my comfort zone. But I will try my best and provide best value to everything. All my [[Main/Projects\|Projects]] building progress shall be documented here and all for you guys to enjoy 😄. 
 
 ## How I plan on doing this?
 
@@ -52,4 +52,4 @@ I am not an expert in anything, but who says you have to be an expert to share k
 
 ---
 
-Next -> [[Main/Equity chatbot folder/Projects\|Projects]]
+Next -> [[Main/Projects\|Projects]]
